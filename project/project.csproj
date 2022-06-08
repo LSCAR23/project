@@ -62,6 +62,9 @@
     <Compile Include="ventana_acomodar.xaml.cs">
       <DependentUpon>ventana_acomodar.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ventana_ganador.xaml.cs">
+      <DependentUpon>ventana_ganador.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ventana_jugar.xaml.cs">
       <DependentUpon>ventana_jugar.xaml</DependentUpon>
     </Compile>
@@ -78,6 +81,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="ventana_acomodar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ventana_ganador.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

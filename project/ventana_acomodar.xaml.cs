@@ -35,6 +35,7 @@ namespace project
         int barc;
         public ventana_acomodar(List<int[]> posiciones_J1, int turno)
         {
+      
             InitializeComponent();
             this.posiciones_J1 = posiciones_J1;
             this.turno = turno;
@@ -362,7 +363,7 @@ namespace project
                     else
                     {
                         relle_P_en_uso2_0();
-                        ventana_jugar ve = new ventana_jugar(posiciones_J1,posiciones_en_uso);
+                        ventana_jugar ve = new ventana_jugar(posiciones_J1,posiciones_en_uso,1,new List<int[]>(),new List<int[]>(),new List<int[]>(),new List<int[]>());
                         ve.Show();
                         this.Close();
                     }

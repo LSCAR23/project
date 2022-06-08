@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:project"
         mc:Ignorable="d"
-        Title="ventana_jugar" Height="600" Width="1000">
+        Title="ventana_jugar" Height="600" Width="1000" KeyDown="Window_KeyDown">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="91*"/>
+            <ColumnDefinition Width="909*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="157*"/>
+            <RowDefinition Height="90*"/>
+            <RowDefinition Height="337*"/>
+        </Grid.RowDefinitions>
+
     </Grid>
 </Window>
